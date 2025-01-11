@@ -1,6 +1,73 @@
+/* Font Face: Fira Sans */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family:
+    Fira Sans,
+    sans-serif;
 }
 
+footer {
+  width: 1600px;
+  background: rgb(255, 255, 255);
+  padding: 50px 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+header {
+  width: 1600px;
+  height: 100px;
+  background: rgb(245, 245, 245);
+  margin: 24 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48;
+  padding: 24px 160px;
+}
+
+main {
+  width: 1600px;
+  margin: 24 160px;
+  background: rgb(245, 245, 245);
+  display: flex;
+}
+
+.page-name {
+  width: 222px;
+  height: 38px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.btn-container .btn {
+  width: 116px;
+  height: 52px;
+  padding: 15px 30px;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+footer hr {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  width: 1122px;
+  height: 0;
+  margin: 32px 0px;
+}
+
+.footer-social-media-container {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.footer-social-media {
+  width: 24px;
+  height: 24px;
+}
