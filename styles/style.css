@@ -20,20 +20,21 @@ header {
   width: 1600px;
   height: 100px;
   background: rgb(245, 245, 245);
-  margin: 24 160px;
+  margin: 24px 160px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 48;
+  gap: 48px;
   padding: 24px 160px;
 }
 
 main {
   width: 1600px;
-  margin: 24 160px;
+  margin: 24px 160px;
   background: rgb(245, 245, 245);
-  display: flex;
+  /* display: flex; */
+  padding: 24px 160px;
 }
 
 .page-name {
@@ -43,13 +44,21 @@ main {
   font-weight: 700;
 }
 
+.btn-container {
+  display: flex;
+  /* width: auto; */
+}
+
 .btn-container .btn {
+  display: inline-block;
   width: 116px;
   height: 52px;
   padding: 15px 30px;
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
   font-weight: 700;
+  color: rgb(0, 106, 80);
+  text-align: center;
 }
 
 footer hr {
@@ -69,4 +78,52 @@ footer hr {
 .footer-social-media {
   width: 24px;
   height: 24px;
+}
+
+.banner-container {
+  width: 1400px; /* 1600px - (2 × 100px padding) */
+  height: 560px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+
+.banner-title {
+  width: 622px;
+  height: 201px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+.banner-subtitle {
+  width: 622px;
+  height: 29px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: rgba(14, 14, 14, 0.5);
+}
+
+.btn-container .btn-banner {
+  display: inline-flex;
+  padding: 15px 30px;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 106, 80);
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.banner-image {
+  width: 50%;
 }
