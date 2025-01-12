@@ -288,8 +288,9 @@ main section {
   margin-bottom: 32px;
 }
 
-.news-image .layout-row-reverse {
+.news-image .layout-reverse {
   margin-left: 32px;
+  margin-right: 0px;
 }
 
 .news-image {
@@ -345,4 +346,3 @@ main section {
   align-content: start;
   justify-content: space-between;
 }
-
