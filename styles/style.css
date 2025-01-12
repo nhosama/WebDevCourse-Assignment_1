@@ -23,6 +23,10 @@
   text-align: left;
 }
 
+.layout-row-reverse {
+  flex-direction: row-reverse;
+}
+
 /* Page Title */
 .title {
   width: 222px;
@@ -105,8 +109,10 @@ main {
 
 /* Banner */
 .banner-container {
-  width: 1400px; /* 1600px - (2 × 100px padding) */
-  height: 400px; /* 560px - (2 * 80px padding) */
+  width: 1400px;
+  /* 1600px - (2 × 100px padding) */
+  height: 400px;
+  /* 560px - (2 * 80px padding) */
   padding: 80px 100px;
   border-radius: 24px;
   background: rgb(198, 228, 214);
@@ -149,15 +155,17 @@ main {
 
 /* Other Sectons */
 
-section {
+main section {
   margin-top: 40px;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .div-section-container {
   max-width: 1600px;
   width: 100%;
   border-radius: 24px;
+  padding: 24px 0;
 }
 
 .section-title {
@@ -275,3 +283,66 @@ section {
   line-height: 22px;
   color: rgb(255, 255, 255);
 }
+
+.news-section-top {
+  margin-bottom: 32px;
+}
+
+.news-image .layout-row-reverse {
+  margin-left: 32px;
+}
+
+.news-image {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+  margin-right: 32px;
+}
+
+.news-post {
+  max-width: 100%;
+  padding: 48px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 24px;
+  background-color: rgb(255, 255, 255);
+}
+
+.news-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.news-source-image {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.news-date-time {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.news-date-time .section-subtitle {
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.news-post .news-text .btn-banner {
+  margin-top: 32px;
+  max-width: 165px;
+}
+
+.news-text {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  justify-content: space-between;
+}
+
