@@ -370,7 +370,7 @@ main section {
   margin-bottom: 24px;
 }
 
-.vision-box .btn {
+.vision-box > .btn {
   border-color: transparent;
 }
 
