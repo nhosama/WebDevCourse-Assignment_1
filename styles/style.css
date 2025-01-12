@@ -191,7 +191,7 @@ main section {
 
 .pillars-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 24px;
 }
 
@@ -346,4 +346,46 @@ main section {
   flex-direction: column;
   align-content: start;
   justify-content: space-between;
+}
+
+.vision-section .section-subtitle {
+  padding-bottom: 32px;
+}
+
+.vision-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+  background: rgb(255, 255, 255);
+  width: 33%;
+  margin: 0;
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vision-box .pillar-desc {
+  margin-bottom: 24px;
+}
+
+.vision-box .btn {
+  border-color: transparent;
+}
+
+.text-blue {
+  background: rgb(84, 144, 245);
+}
+
+.text-green {
+  background: rgb(9, 161, 92);
+}
+
+.color-yellow {
+  background: rgb(247, 235, 207);
+}
+
+.text-orange {
+  background: rgb(255, 194, 57);
 }
