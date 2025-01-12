@@ -105,11 +105,12 @@ main {
   background: rgb(245, 245, 245);
   padding-top: 24px;
   padding-bottom: 24px;
+  max-width: 1600px;
 }
 
 /* Banner */
 .banner-container {
-  width: 1400px;
+  max-width: 1400px;
   /* 1600px - (2 × 100px padding) */
   height: 400px;
   /* 560px - (2 * 80px padding) */
