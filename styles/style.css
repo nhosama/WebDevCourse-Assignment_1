@@ -15,6 +15,14 @@
   padding-right: 160px;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
 /* Page Title */
 .title {
   width: 222px;
@@ -141,7 +149,7 @@ main {
 
 /* Other Sectons */
 
-main section {
+section {
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -157,9 +165,19 @@ main section {
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
-  text-align: left;
   margin-bottom: 24px;
   color: rgb(14, 14, 14);
+}
+
+.section-subtitle {
+  width: 100%;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 16px;
+  font-family: Fira Sans;
+  line-height: 24px;
 }
 
 .pillars-container {
@@ -199,4 +217,61 @@ main section {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.donation-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.donation-container .section-subtitle {
+  width: 1104px;
+  height: 48px;
+}
+
+.donation-amount-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1154px;
+  padding: 24px;
+  gap: 16px;
+}
+
+.btn-donation {
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 272px;
+  height: 128px;
+}
+
+.input-donation {
+  width: 100%;
+  max-width: 1032px;
+  padding: 20px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.btn-confirm {
+  gap: 48;
+  padding: 17px 34px;
+  margin: 32px 0px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
 }
